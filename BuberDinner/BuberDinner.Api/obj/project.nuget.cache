@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Hq1wkyp6sLxBVKwpCadLWoPjUxltPLPtBF/X59kVJvtEKJg2sCljf2E3+gXmVANoNguSVWZtHkzF+dTUvOlOQ==",
+  "success": true,
+  "projectFilePath": "D:\\_dev\\C#\\api--buber-dinner\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
