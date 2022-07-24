@@ -28,3 +28,9 @@ D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberD
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Application.pdb
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Infrastructure.pdb
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Domain.pdb
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
