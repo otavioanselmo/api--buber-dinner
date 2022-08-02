@@ -17,6 +17,14 @@
           "BuberDinner.Infrastructure.dll": {}
         }
       },
+      "ErrorOr/0.2.0": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Extensions.Configuration/6.0.1": {
         "dependencies": {
@@ -158,6 +166,7 @@
       "BuberDinner.Application/1.0.0": {
         "dependencies": {
           "BuberDinner.Domain": "1.0.0",
+          "ErrorOr": "0.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -165,6 +174,9 @@
         }
       },
       "BuberDinner.Domain/1.0.0": {
+        "dependencies": {
+          "ErrorOr": "0.2.0"
+        },
         "runtime": {
           "BuberDinner.Domain.dll": {}
         }
@@ -176,6 +188,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ErrorOr/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wTEdBKVSFX2Lm6SvARPrjM4d3ptzBuxmpDlWHV49N8ULzf+VDWGoGSTIxhh0bEc6EYcanb3iFI9CQTpMJ5qYSg==",
+      "path": "erroror/0.2.0",
+      "hashPath": "erroror.0.2.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

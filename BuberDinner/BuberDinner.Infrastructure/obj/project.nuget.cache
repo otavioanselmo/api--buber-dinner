@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ESi8ty2vOx7Dm8rGCt/IBdthnVsbc7nG9TS6EXSkj3m/2TaLEpNOOVNxf8gglSTsTKBaPo+ixJhSKplFW1ptQA==",
+  "dgSpecHash": "ipYYQU8OqYS9nt1ztfSbOQbKJNhM0263sj99CnMOk4xZge+KTAF2tD1HXQftyXQJTue0droFt4PZj72+0+3W/w==",
   "success": true,
   "projectFilePath": "D:\\_dev\\C#\\api--buber-dinner\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\erroror\\0.2.0\\erroror.0.2.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
