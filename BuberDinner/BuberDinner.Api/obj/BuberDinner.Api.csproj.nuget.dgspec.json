@@ -54,9 +54,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "oneof": {
+            "fluentResults": {
               "target": "Package",
-              "version": "[3.0.223, )"
+              "version": "[3.8.0, )"
             }
           },
           "imports": [
@@ -129,9 +129,9 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "oneof": {
+            "fluentResults": {
               "target": "Package",
-              "version": "[3.0.223, )"
+              "version": "[3.8.0, )"
             }
           },
           "imports": [
