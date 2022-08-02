@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "ErrorOr/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -196,6 +205,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BuberDinner.Domain": "1.0.0",
+          "ErrorOr": "0.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
@@ -218,6 +228,9 @@
       "BuberDinner.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ErrorOr": "0.2.0"
+        },
         "compile": {
           "bin/placeholder/BuberDinner.Domain.dll": {}
         },
@@ -244,6 +257,20 @@
     }
   },
   "libraries": {
+    "ErrorOr/0.2.0": {
+      "sha512": "wTEdBKVSFX2Lm6SvARPrjM4d3ptzBuxmpDlWHV49N8ULzf+VDWGoGSTIxhh0bEc6EYcanb3iFI9CQTpMJ5qYSg==",
+      "type": "package",
+      "path": "erroror/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.0.2.0.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -677,7 +704,8 @@
     "net6.0": [
       "BuberDinner.Application >= 1.0.0",
       "BuberDinner.Contracts >= 1.0.0",
-      "BuberDinner.Infrastructure >= 1.0.0"
+      "BuberDinner.Infrastructure >= 1.0.0",
+      "ErrorOr >= 0.2.0"
     ]
   },
   "packageFolders": {
@@ -733,6 +761,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[0.2.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
