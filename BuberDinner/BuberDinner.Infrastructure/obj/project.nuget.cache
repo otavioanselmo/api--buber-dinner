@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ESi8ty2vOx7Dm8rGCt/IBdthnVsbc7nG9TS6EXSkj3m/2TaLEpNOOVNxf8gglSTsTKBaPo+ixJhSKplFW1ptQA==",
+  "dgSpecHash": "SWi7yTjp/s2lNnTvY8lJgPIj3jMV41VQK9RcfIRpwZLfJeYzjeEMZKUXB352UDPP2zSZZau3eOon63raZIJaUg==",
   "success": true,
   "projectFilePath": "D:\\_dev\\C#\\api--buber-dinner\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.21.0\\microsoft.identitymodel.jsonwebtokens.6.21.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.identitymodel.logging\\6.21.0\\microsoft.identitymodel.logging.6.21.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.21.0\\microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
+    "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\oneof\\3.0.223\\oneof.3.0.223.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.21.0\\system.identitymodel.tokens.jwt.6.21.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Otávio Anselmo\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"

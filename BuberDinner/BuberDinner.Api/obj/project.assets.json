@@ -151,6 +151,15 @@
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+      "OneOf/3.0.223": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/6.21.0": {
         "type": "package",
         "dependencies": {
@@ -196,7 +205,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BuberDinner.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "oneof": "3.0.223"
         },
         "compile": {
           "bin/placeholder/BuberDinner.Application.dll": {}
@@ -543,6 +553,21 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "OneOf/3.0.223": {
+      "sha512": "YWabiHBFfDdKIO7/TEa72mARVVo5u5FqFnfXuTqjIupMvJlhoH8d0m4uKtczaINuT0vGR1qlXJayeU6bTw5myg==",
+      "type": "package",
+      "path": "oneof/3.0.223",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.223.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
     "System.IdentityModel.Tokens.Jwt/6.21.0": {
       "sha512": "JRD8AuypBE+2zYxT3dMJomQVsPYsCqlyZhWel3J1d5nzQokSRyTueF+Q4ID3Jcu6zSZKuzOdJ1MLTkbQsDqcvQ==",
       "type": "package",
@@ -677,7 +702,8 @@
     "net6.0": [
       "BuberDinner.Application >= 1.0.0",
       "BuberDinner.Contracts >= 1.0.0",
-      "BuberDinner.Infrastructure >= 1.0.0"
+      "BuberDinner.Infrastructure >= 1.0.0",
+      "oneof >= 3.0.223"
     ]
   },
   "packageFolders": {
@@ -733,6 +759,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "oneof": {
+            "target": "Package",
+            "version": "[3.0.223, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
