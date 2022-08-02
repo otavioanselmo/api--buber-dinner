@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using BuberDinner.Api.Common.Errors.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace BuberDinner.Api.Controllers
 {
@@ -14,7 +9,7 @@ namespace BuberDinner.Api.Controllers
     {
         protected IActionResult Problem(List<Error> errors)
         {
-            HttpContext.Items["errors"] = errors;
+            HttpContext.Items[HttpContextItemKeys.Errors] = errors;
 
             var firstError = errors[0];
 

@@ -3,9 +3,9 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using BuberDinner.Application.Common.Interfaces.Authentication;
 using Microsoft.IdentityModel.Tokens;
-using BuberDinner.Application.Services.Services;
 using Microsoft.Extensions.Options;
 using BuberDinner.Domain.Entities;
+using BuberDinner.Application.Common.Interfaces.DateTimeProvider;
 
 namespace BuberDinner.Infrastructure.Authentication;
 
