@@ -57,6 +57,14 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[0.2.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

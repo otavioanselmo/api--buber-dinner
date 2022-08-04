@@ -1,13 +1,11 @@
 using System.Diagnostics;
-using System.Net;
-using BuberDinner.Api.Common.Errors.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
 
-namespace BuberDinner.Api.Common.Errors
+namespace BuberDinner.Api.Common.Http
 {
     public class BuberDinnerProblemDetailsFactory : ProblemDetailsFactory
     {

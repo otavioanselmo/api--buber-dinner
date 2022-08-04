@@ -38,3 +38,6 @@ D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\ErrorO
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\MediatR.dll
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.Core.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
