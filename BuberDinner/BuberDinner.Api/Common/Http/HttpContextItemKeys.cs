@@ -1,4 +1,4 @@
-namespace BuberDinner.Api.Common.Errors.Http
+namespace BuberDinner.Api.Common.Http
 {
     public class HttpContextItemKeys
     {

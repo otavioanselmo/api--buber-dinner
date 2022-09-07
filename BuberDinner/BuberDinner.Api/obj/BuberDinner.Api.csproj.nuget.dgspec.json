@@ -57,6 +57,14 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[0.2.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -128,6 +136,14 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[0.2.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.1, )"
             },
             "MediatR": {
               "target": "Package",
@@ -338,6 +354,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.21.0, )"
+            },
+            "microsoft.aspnetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             }
           },
           "imports": [
