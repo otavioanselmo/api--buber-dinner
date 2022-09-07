@@ -5,7 +5,7 @@ using BuberDinner.Application.Common.Interfaces.Authentication;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Options;
 using BuberDinner.Domain.Entities;
-using BuberDinner.Application.Common.Interfaces.DateTimeProvider;
+using BuberDinner.Application.Common.Interfaces.Services;
 
 namespace BuberDinner.Infrastructure.Authentication;
 

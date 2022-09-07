@@ -41,3 +41,7 @@ D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mediat
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.dll
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.Core.dll
 D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\_dev\C#\api--buber-dinner\BuberDinner\BuberDinner.Api\obj\Debug\net6.0\BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs

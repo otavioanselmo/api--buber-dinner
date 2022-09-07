@@ -1,4 +1,4 @@
-using BuberDinner.Application.Common.Interfaces.DateTimeProvider;
+using BuberDinner.Application.Common.Interfaces.Services;
 
 namespace BuberDinner.Infrastructure.Services;
 
